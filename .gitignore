@@ -1,0 +1,70 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+/dist/
+/build/
+/out/
+/public/build/
+*.min.js.map
+*.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+# Caches and temp files
+.cache/
+.sass-cache/
+.parcel-cache/
+.cache-loader/
+
+# Test coverage
+coverage/
+lcov-report/
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.tmp
+*.bak
+*.swp
+
+# Framework specific
+.next/
+.nuxt/
+.vercel/
+
+# OS generated files
+Icon?
+
+# Ignore build artifacts created by bundlers
+/.parcel-cache
+/dist
+
+# Optional: lockfiles (uncomment if you don't want to commit)
+# package-lock.json
+# yarn.lock
