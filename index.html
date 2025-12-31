@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project Showcase</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Project Showcase</h1>
+      <p class="lead">A simple static index of your frontend projects. Click a tile to open the project at <code>/folder-name/</code>.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid" aria-label="Projects">
+      <article class="card">
+        <a href="/testimonial-card/" class="card-link">
+          <div class="thumb" aria-hidden="true">TC</div>
+          <div class="card-body">
+            <h2>Testimonial Card</h2>
+            <p>A responsive testimonial card component demo (open <code>/testimonial-card/</code>).</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="card placeholder">
+        <a href="#" class="card-link">
+          <div class="thumb">+</div>
+          <div class="card-body">
+            <h2>Add a Project</h2>
+            <p>Create a folder with an <code>index.html</code> at the repo root and it will be available at <code>/your-folder/</code>.</p>
+          </div>
+        </a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>To preview locally run: <code>python -m http.server 8000</code> or <code>npx http-server</code>. ✅</small>
+    </div>
+  </footer>
+</body>
+</html>
