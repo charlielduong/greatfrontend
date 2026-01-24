@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   height: 768px;
+  overflow: hidden
 }
 
 * {
