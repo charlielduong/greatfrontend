@@ -29,8 +29,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  .button-container { width: 100%; }
 }
 
 @media (min-width: 1440px) {
-
+  .button-container { width: 100%; }
 }
